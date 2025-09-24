@@ -1,0 +1,40 @@
+[project]
+name = "unimib_snowit_project"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Davide Tortorella", email = "d.tortorella@campus.unimib.it"},
+    {name = "Chiara Pelizza", email = "c.pelizza2@campus.unimib.it"},
+]
+dependencies = [
+    "pandas>=2.2.3",
+    "numpy>=2.2.5",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "dill>=0.4.0",
+    "ftfy>=6.3.1",
+    "matplotlib>=3.10.3",
+    "scikit-learn>=1.7.2",
+    "nltk>=3.9.1",
+    "imbalanced-learn>=0.14.0",
+    "seaborn>=0.13.2",
+    "plotly>=6.3.0",
+    "xgboost>=3.0.5",
+    "geopy>=2.4.1",
+    "openmeteo-requests>=1.7.2",
+    "requests-cache>=1.2.1",
+    "retry-requests>=2.0.0"
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
