@@ -2,9 +2,6 @@
 This project is prepared using the package manager PDM (https://pdm-project.org/).<br>
 It is recommended to use a virtual environment, it is used Conda (https://docs.anaconda.com/free/miniconda/miniconda-install/).<br>
 It is recommended to use an IDE for developing your code, it is used Visual Studio Code (https://code.visualstudio.com/).<br>
-It is recommended to use git for version control (https://git-scm.com/).<br>
-
-Please update the ```pyproject.toml``` file accordingly.<br>
 
 To setup the project (after installed pdm and conda) follow these step:
 1. Create an environment and activate it
@@ -79,5 +76,6 @@ They are designed to be executed in order, from **01** to **10**.
 10. **10_within_2024-2025_marketing_campaign**  
    - Merges predicted churners with their RFM categories on **labeled data** from the first half of season 2024–2025.  
    - Marketing Campaign
+
 
 
